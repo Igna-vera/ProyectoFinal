@@ -1,0 +1,141 @@
+/*Footer*/
+
+
+
+footer{
+
+	grid-area: footer;
+	
+
+}	
+.footer{
+
+	display: flex;
+	flex-flow: row nowrap;
+	height: 200px;
+	background-color: rgb(38, 38, 36);
+	color: white;
+	justify-content: center;
+	align-items: flex-start;
+
+	}
+
+.footer div{
+
+	margin-top: 15px;
+
+}
+
+.footerLogo{
+
+	flex: 1 1 30%;
+
+}
+
+.footerLogo h3{
+	text-align: center;
+
+margin-bottom: 80px;
+
+}
+
+
+.footerRedes{
+
+	flex: 1 1 30%;
+}
+
+.footerRedes p{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+
+}
+
+.footerRedes ul li{
+	margin-top: 15px;
+	margin-left: 80px;
+	list-style-type: none;
+	
+}
+
+.footerRedesImg{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.footerRedes .footerRedesImg img{
+	
+	margin-right: 20px;
+	height: 36px;
+	width: 36px;
+
+}
+
+.footerRedesImg a:hover .facebookLogo{
+	background-color: rgba(252, 157, 40,0.7);
+	
+
+
+}
+
+
+.footerRedesImg a:hover .twitterLogo{
+	background-color: rgba(252, 157, 40,0.7);
+	border-radius: 20px;
+
+}
+
+.footerRedesImg a:hover .igLogo{
+	background-color: rgba(252, 157, 40,0.7);
+	border-radius: 20px;
+
+}
+
+
+.facebookLogo {
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+.twitterLogo {
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+.igLogo {
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+
+.footerMapa{
+	text-align: center;
+	flex: 1 1 30%
+
+
+}
+
+
+.footerMapa ul li{
+
+	list-style-type: none;
+
+}
+
+.footerMapa ul li a{
+
+	text-decoration: none;
+	color:white;
+	margin-top:2px;
+	letter-spacing: 0.5px;
+
+
+}
+
+.footerMapa ul li:hover a{
+
+	color:rgba(252, 157, 40,0.7);
+
+}

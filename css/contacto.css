@@ -1,0 +1,9 @@
+.formulario input{
+	display:inline-block;
+	margin: 10px;
+
+}
+
+#formularioSexo{
+	display: block;
+}

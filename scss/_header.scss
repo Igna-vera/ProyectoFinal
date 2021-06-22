@@ -1,0 +1,44 @@
+header{
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		grid-area: header;
+		height: 100px;
+		background-image: url(../../media/img-nav/headerakira.jpg);
+		background-attachment: contain;
+		background-size: contain;
+		background-repeat:round;
+		
+
+	ul{
+		
+		display: flex;
+		flex-flow: row nowrap;
+		list-style: none;
+
+
+		a{
+			display: inline-block;
+			text-decoration: none;
+
+			margin-right: 2em;
+			padding: 1em;
+
+
+
+			li{
+				text-transform: capitalize;
+				color: white;
+			}
+		}
+
+	}
+
+}
+
+a:hover .headerNav{
+
+	
+
+}
+
