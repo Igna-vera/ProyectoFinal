@@ -297,7 +297,7 @@ h2{
 
 article{
 
-	background-color: rgba(158, 32, 30,0.5);
+	background-color: rgba(0, 0, 0,0.5);
 	border-radius: 5px;
 	margin: 1em;
 	width: 30%;
@@ -315,7 +315,7 @@ article{
 		margin: 1em;
 
 		label{
-			color: #521110;
+			color: orange;
 			margin-top: 0.5em;
 		}
 
@@ -344,6 +344,8 @@ article{
 
 
 
+
+
 @media (max-width: 700px){
 
 	.mainPageEstrenos{
@@ -356,6 +358,13 @@ article{
 		
 
 		div{
+
+
+			display: grid;
+			justify-content: center;
+		
+
+
 
 			p{
 				text-align: center;
@@ -391,3 +400,26 @@ article{
 	}
 
 }
+
+@media (max-width: 570px){
+
+	.mainPageEstrenos{
+
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: center;
+		align-content: center;
+
+		div{
+
+			display: grid;
+			justify-content: center;
+		}
+
+
+
+	}
+
+
+
+	}

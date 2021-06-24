@@ -277,7 +277,7 @@ h2 {
   height: 500px; }
 
 article {
-  background-color: rgba(158, 32, 30, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin: 1em;
   width: 30%;
@@ -293,7 +293,7 @@ article {
     padding: 1em;
     margin: 1em; }
     article form label {
-      color: #521110;
+      color: orange;
       margin-top: 0.5em; }
     article form input {
       min-width: 50%;
@@ -311,10 +311,13 @@ article {
     justify-content: center;
     align-content: center;
     align-items: center; }
-    .mainPageEstrenos div p {
-      text-align: center;
-      margin: auto;
-      padding: auto; }
+    .mainPageEstrenos div {
+      display: grid;
+      justify-content: center; }
+      .mainPageEstrenos div p {
+        text-align: center;
+        margin: auto;
+        padding: auto; }
   .mainPageEstrenos900px {
     display: inline-block; }
   .mainPageNews {
@@ -324,3 +327,13 @@ article {
     flex: 1 1 30%; }
   .titulo {
     text-align: center; } }
+
+@media (max-width: 570px) {
+  .mainPageEstrenos {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center; }
+    .mainPageEstrenos div {
+      display: grid;
+      justify-content: center; } }

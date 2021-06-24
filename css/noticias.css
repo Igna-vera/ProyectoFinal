@@ -110,8 +110,33 @@ h1{
 .noticia5Titulo{
 
 	position: absolute;
+	top: 69%;
+	font-size: 1.1em;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 2px;
+	
+
+}
+
+
+.noticia6Titulo{
+
 	position: absolute;
 	top: 69%;
+	font-size: 1.1em;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 2px;
+	
+
+
+}
+
+.noticia2Titulo{
+
+	position: absolute;
+	top: 85%;
 	font-size: 1.1em;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -337,5 +362,124 @@ margin-bottom: 80px;
 .footerMapa ul li:hover a{
 
 	color:rgba(252, 157, 40,0.7);
+
+}
+
+@media (max-width: 900px) {
+
+
+	.noticiaNoticias{
+
+	background-color: rgba(209, 208, 207,0.5);
+	display: grid;
+	grid-template-areas: 
+
+			"noticia-1 noticia-1  noticia-2"
+			"noticia-4 noticia-4 noticia-4"
+			"noticia-5 noticia-5 noticia-6";
+
+
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(3,300px);
+}
+
+.noticia-3{
+	display: none;
+
+
+}
+
+
+.noticia-4{
+	margin: 0.5em;
+	position: relative;
+	grid-area:noticia-4 ;
+	grid-column: 1/5;
+	background-image: url(../../media/img-noticias/lupin2.jpeg);
+	background-size: cover;
+	background-repeat:round;
+
+}
+
+
+.noticia-5{
+	
+	position: relative;
+	grid-area:noticia-5;
+	margin: 0.5em;
+	background-image: url(../../media/img-noticias/16-4-600x337.jpg);
+	background-size: cover;
+	background-position: center;
+		
+
+}
+
+
+}
+
+
+@media (max-width: 700px){
+
+.noticiaNoticias{
+
+	background-color: rgba(209, 208, 207,0.5);
+	display: grid;
+	grid-template-areas: 
+
+			"noticia-1 noticia-1 "
+			"noticia-4 noticia-4 "
+			"noticia-5 noticia-5 ";
+
+
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(3,300px);
+}
+
+.noticia-1{
+	position: relative;
+	grid-area: noticia-1;
+	grid-column: 1/5;
+	margin: 0.5em;
+	background-image: url(../../media/img-noticias/jonhwick-cover_yrz3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+
+}
+
+.noticia-4{
+	margin: 0.5em;
+	position: relative;
+	grid-area:noticia-4 ;
+	grid-column: 1/5;
+	background-image: url(../../media/img-noticias/lupin2.jpeg);
+	background-size: cover;
+	background-repeat:round;
+
+}
+
+
+.noticia-5{
+	
+	position: relative;
+	grid-area:noticia-5;
+	grid-column: 1/5;
+	margin: 0.5em;
+	background-image: url(../../media/img-noticias/16-4-600x337.jpg);
+	background-size: cover;
+	background-position: center;
+		
+
+}
+
+.noticia6Titulo{
+
+	visibility: hidden;
+}
+.noticia2Titulo{
+
+	visibility: hidden;
+}
 
 }
