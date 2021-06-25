@@ -26,7 +26,7 @@ header{
 		justify-content: center;
 		height: 100px;
 		width: 100%;
-		background-image: url(../../media/img-nav/headerakira.jpg);
+		background-image: url(../media/img-nav/headerakira.jpg);
 		background-attachment: contain;
 		background-size: contain;
 		background-repeat:round;
@@ -63,7 +63,7 @@ header ul a li {
 .fondo{
 	position: relative;
 	height: 500px;
-	background-image: url(../../media/img-noticias/ghost-in-the-shell-geisha-woman-girl-nipon-flag-asian-asiati.jpg);
+	background-image: url(../media/img-noticias/ghost-in-the-shell-geisha-woman-girl-nipon-flag-asian-asiati.jpg);
 	background-position: center;
 }
 
@@ -159,7 +159,7 @@ h1{
 	grid-area: noticia-1;
 	grid-column: noticia-1;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/jonhwick-cover_yrz3.jpg);
+	background-image: url(../media/img-noticias/jonhwick-cover_yrz3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -175,7 +175,7 @@ h1{
 	grid-area:noticia-2 ;
 	grid-column:3/5 ;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/thor.png);
+	background-image: url(../media/img-noticias/thor.png);
 	background-size: cover;
 }
 
@@ -183,7 +183,7 @@ h1{
 	margin: 0.5em;
 	position: relative;
 	grid-area:noticia-3 ;
-	background-image: url(../../media/img-noticias/shaza.jpg);
+	background-image: url(../media/img-noticias/shaza.jpg);
 	background-size: cover;
 
 
@@ -194,7 +194,7 @@ h1{
 	position: relative;
 	grid-area:noticia-4 ;
 	grid-column: 2/5;
-	background-image: url(../../media/img-noticias/lupin2.jpeg);
+	background-image: url(../media/img-noticias/lupin2.jpeg);
 	background-size: cover;
 	background-repeat:round;
 
@@ -205,7 +205,7 @@ h1{
 	position: relative;
 	grid-area:noticia-5;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/16-4-600x337.jpg);
+	background-image: url(../media/img-noticias/16-4-600x337.jpg);
 	background-size: cover;
 	background-position: center;
 		
@@ -218,7 +218,7 @@ h1{
 	grid-area:noticia-6;
 	grid-column: 3/5;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/fast9.jpg);
+	background-image: url(../media/img-noticias/fast9.jpg);
 	background-size: cover;
 	background-position: center;
 
@@ -395,7 +395,7 @@ margin-bottom: 80px;
 	position: relative;
 	grid-area:noticia-4 ;
 	grid-column: 1/5;
-	background-image: url(../../media/img-noticias/lupin2.jpeg);
+	background-image: url(../media/img-noticias/lupin2.jpeg);
 	background-size: cover;
 	background-repeat:round;
 
@@ -407,7 +407,7 @@ margin-bottom: 80px;
 	position: relative;
 	grid-area:noticia-5;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/16-4-600x337.jpg);
+	background-image: url(../media/img-noticias/16-4-600x337.jpg);
 	background-size: cover;
 	background-position: center;
 		
@@ -440,7 +440,7 @@ margin-bottom: 80px;
 	grid-area: noticia-1;
 	grid-column: 1/5;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/jonhwick-cover_yrz3.jpg);
+	background-image: url(../media/img-noticias/jonhwick-cover_yrz3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -453,7 +453,7 @@ margin-bottom: 80px;
 	position: relative;
 	grid-area:noticia-4 ;
 	grid-column: 1/5;
-	background-image: url(../../media/img-noticias/lupin2.jpeg);
+	background-image: url(../media/img-noticias/lupin2.jpeg);
 	background-size: cover;
 	background-repeat:round;
 
@@ -466,7 +466,7 @@ margin-bottom: 80px;
 	grid-area:noticia-5;
 	grid-column: 1/5;
 	margin: 0.5em;
-	background-image: url(../../media/img-noticias/16-4-600x337.jpg);
+	background-image: url(../media/img-noticias/16-4-600x337.jpg);
 	background-size: cover;
 	background-position: center;
 		

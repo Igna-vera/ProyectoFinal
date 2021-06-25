@@ -95,7 +95,7 @@ header {
   justify-content: center;
   grid-area: header;
   height: 100px;
-  background-image: url(../../media/img-nav/headerakira.jpg);
+  background-image: url(../media/img-nav/headerakira.jpg);
   background-attachment: contain;
   background-size: contain;
   background-repeat: round; }
@@ -128,7 +128,7 @@ section {
   grid-area: articulos; }
 
 .mainPagePortada {
-  background-image: url(../../media/movie1.jpg);
+  background-image: url(../media/movie1.jpg);
   background-size: cover;
   padding: 200px 0;
   margin-bottom: 100px;
@@ -270,7 +270,7 @@ h2 {
 
 /*Contacto*/
 .sectionContacto {
-  background-image: url(../../media/img-nav/john-wick-3-1280×720.jpg);
+  background-image: url(../media/img-nav/john-wick-3-1280×720.jpg);
   background-attachment: contain;
   background-size: cover;
   background-repeat: none;
