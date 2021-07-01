@@ -8,12 +8,17 @@ header{
 		background-attachment: contain;
 		background-size: contain;
 		background-repeat:round;
-		
+	nav{
+
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+
+	}		
 
 	ul{
 		
-		display: flex;
-		flex-flow: row nowrap;
+		
 		list-style: none;
 
 
@@ -23,6 +28,7 @@ header{
 
 			margin-right: 2em;
 			padding: 1em;
+
 
 
 
@@ -36,9 +42,51 @@ header{
 
 }
 
+.bar-btn{
+
+	display: none;
+}
+
+
 a:hover .headerNav{
 
 	
 
 }
 
+
+@media (max-width: 522px){
+
+	nav{
+
+		ul{
+			a{
+				margin:0px;
+				
+			}
+		}
+	}
+	
+}
+
+@media (max-width: 395px){
+
+	nav{	
+
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+
+		ul{
+
+
+			a{
+				margin-right: 5px;
+				padding: 0;
+				border-bottom: orange solid 1px;
+
+			}
+		}
+	}
+
+}
