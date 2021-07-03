@@ -76,6 +76,8 @@ header ul a li {
 	height: 500px;
 	background-image: url(../media/img-noticias/ghost-in-the-shell-geisha-woman-girl-nipon-flag-asian-asiati.jpg);
 	background-position: center;
+	margin-bottom: 100px;
+
 }
 
 h1{
@@ -101,6 +103,8 @@ h1{
 
 	grid-template-columns: repeat(4,25%);
 	grid-template-rows: repeat(3,300px);
+	margin-bottom: 100px;
+
 
 
 

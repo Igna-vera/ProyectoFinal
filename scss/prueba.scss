@@ -108,6 +108,12 @@ h2{
 	
 
 }
+.mainPageEstrenos{
+
+	a{
+		text-decoration: none;
+	}
+}
 
 
 .mainPageEstrenos p{
@@ -133,12 +139,21 @@ h2{
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
 	margin-right: 1em;
+	margin-bottom: 100px;
+
+
+	a{
+
+		text-decoration: none;
+
+	}
 
 	p{
 		color:white;
 		span{
 			text-transform: lowercase;
 			color:white;
+
 		}
 	}
 
@@ -174,6 +189,7 @@ h2{
 	grid-column: 1/4;
 	grid-row: 1;
 	margin-bottom: 100px;
+
 }
 
 
@@ -184,6 +200,7 @@ h2{
 	margin: 1280px;
 	width: 90%;
 	margin: auto;
+	margin-top: 20px;
 
 
 
@@ -193,6 +210,7 @@ h2{
 
 	grid-area: galeria;
 	background-color: #9E201E;
+
 
 } 
 #galeria img{
@@ -215,6 +233,8 @@ h2{
 	display: flex;
 	flex-flow: row wrap;
 	margin-top: 20px;
+	margin-bottom: 100px;
+
 	
 
 }
@@ -288,11 +308,13 @@ h2{
 
 .sectionContacto{
 	
-	background-image: url(../media/img-nav/john-wick-3-1280×720.jpg);
+	background-image: url(../media/img-nav/wallpaperflare.com_wallpaper.jpg);
 	background-attachment: contain;
-	background-size: cover;
+	background-position:center;
+	background-size: contain;
 	background-repeat:none;
 	height: 500px;
+	margin-top: 0px;
 
 
 }
@@ -301,10 +323,11 @@ article{
 
 	background-color: rgba(0, 0, 0,0.5);
 	border-radius: 5px;
-	margin: 1em;
+	
 	width: 400px;
 	min-width: 350px;
 	max-width: 450px;
+
 
 	form{
 		width: 80%;
@@ -315,7 +338,7 @@ article{
 		justify-content: center;
 		align-content: center;
 		padding: 1em;
-		margin: 1em;
+		
 
 		label{
 			color: orange;
@@ -341,7 +364,19 @@ article{
 	display: none;
 }
 	
+.estrenosflex__div{
 
+	iframe{ 
+
+		display: none;
+
+	}
+}
+
+.estrenosflex__parrafo{
+
+	flex: 1 1 100%;
+}
 
 }
 
@@ -402,7 +437,12 @@ article{
 		text-align: center;
 	}
 
+
+
+
 }
+
+
 
 @media (max-width: 570px){
 
